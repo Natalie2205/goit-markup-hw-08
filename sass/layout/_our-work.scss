@@ -1,0 +1,33 @@
+.our-work {
+    padding-top: 0;
+}
+
+.our-work-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.our-work-item {
+    position: relative;
+    flex-basis: calc((100% - 60px) / 3);
+}
+
+.our-work__title {
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: var(--primary-wh-color);
+}
+
+.our-work-thumb {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 70px;
+    background-color: var(--bg-thumb-black);
+}

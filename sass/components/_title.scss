@@ -1,0 +1,13 @@
+.section__title,
+.features__title,
+.command__title,
+.works__title {
+    color: var(--title-text-color);
+}
+
+.section__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
