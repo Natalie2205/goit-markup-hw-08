@@ -1,5 +1,5 @@
 .button {
-  padding: 10px 32px;
+  padding: 10px 24px;
   border-color: transparent;
   border-radius: 4px;
   cursor: pointer;
@@ -15,5 +15,12 @@
   &:hover,
   &:focus {
     background-color: var (--hover-button-color);
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .button {
+    padding-left: 32px;
+    padding-right: 32px;
   }
 }
