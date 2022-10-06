@@ -33,3 +33,14 @@
 .logo__footer-title {
   color: var(--primary-wh-color);
 }
+
+.footer__logo {
+  display: block;
+  text-align: center;
+}
+
+@media screen and (min-width: 1200px) {
+  .footer__logo {
+    text-align: left;
+  }
+}
