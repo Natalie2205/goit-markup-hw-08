@@ -38,6 +38,7 @@
 @media screen and (min-width: 1200px) {
   .singup-input {
     width: 358px;
+    margin-bottom: 0;
   }
 }
 
@@ -47,7 +48,7 @@
 
 .singup-btn {
   display: block;
-  padding: 13px 28px 13px 31px;
+  padding: 10px 28px 10px 31px;
   margin-left: auto;
   margin-right: auto;
   border: 0 solid transparent;
@@ -82,14 +83,15 @@
   align-self: center;
 }
 
-@media screen and (max-width: 1199px) {
-  .singup-form {
-    flex-direction: column;
-  }
-}
-
 .singup-form {
   display: flex;
   align-items: center;
-  width: 100%;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 1200px) {
+  .singup__wrapper {
+    display: flex;
+    align-items: center;
+  }
 }
