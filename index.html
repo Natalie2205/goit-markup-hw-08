@@ -145,35 +145,63 @@
                 <h2 class="section__title">Чим ми займаємося</h2>
                 <ul class="list our-work-list">
                     <li class="our-work-item">
-                        <img src="./images/img1.jpg" alt="Людина набирає код на клавіатурі" width="370" height="294">
+                        <picture class="our-work__picture">
+                            <source media="(min-width:1200px)" srcset="./images/img1.webp 1x, ./images/img1@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width:1200px)" srcset="./images/img1.jpg 1x, ./images/img1@2x.jpg 2x">
+                            <img src="./images/img1.jpg" alt="Людина набирає код на клавіатурі">
+                        </picture>
                         <div class="our-work-thumb">
                             <h2 class="our-work__title">Десктопні додатки</h2>
-
                         </div>
                     </li>
                     <li class="our-work-item">
-                        <img src="./images/img2.jpg" alt="Дівчина тримає в руках смартфон" width="370" height="294">
+                        <picture class="our-work__picture">
+                            <source media="(min-width:1200px)" srcset="./images/img2.webp 1x, ./images/img2@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width:1200px)" srcset="./images/img2.jpg 1x, ./images/img2@2x.jpg 2x">
+                            <img src="./images/img2.jpg" alt="Дівчина тримає в руках смартфон">
+                        </picture>
                         <div class="our-work-thumb">
                             <h2 class="our-work__title">Мобільні додатки</h2>
-
                         </div>
                     </li>
                     <li class="our-work-item">
-                        <img src="./images/img3.jpg" alt="Дівчина малює на планшеті" width="370" height="294">
+                        <picture class="our-work__picture">
+                            <source media="(min-width:1200px)" srcset="./images/img3.webp 1x, ./images/img3@2x.webp 2x"
+                                type="image/webp">
+                            <source media="(min-width:1200px)" srcset="./images/img3.jpg 1x, ./images/img3@2x.jpg 2x">
+                            <img src="./images/img3.jpg" alt="Дівчина малює на планшеті">
+                        </picture>
                         <div class="our-work-thumb">
                             <h2 class="our-work__title">Дизайнерські рішення</h2>
-
                         </div>
                     </li>
                 </ul>
             </div>
         </section>
-        <!-- <section class="section our-team">
+        <section class="section our-team">
             <div class="container">
                 <h2 class="section__title">Наша команда</h2>
                 <ul class="command list">
                     <li class="command-item">
-                        <img src="./images/photo1.jpg" alt="Ігор Дем'яненко" width="270" height="260">
+                        <picture class="command__picture">
+                            <source srcset="./images/photo1.webp 1x, ./images/photo1@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/photo1.jpg 1x, ./images/photo1@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+
+                            <source srcset="./images/photo1-t.webp 1x, ./images/photo1-t@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp" />
+                            <source srcset="./images/photo1-t.jpg 1x, ./images/photo1-t@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+
+                            <source srcset="./images/photo1-m.webp 1x, ./images/photo1-m@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp" />
+                            <source srcset="./images/photo1-m.jpg 1x, ./images/photo1-m@2x.jpg 2x"
+                                media="(max-width: 767px)" />
+                            <img src="./images/photo1.jpg" alt="Ігор Дем'яненко">
+                        </picture>
                         <div class="command-card">
                             <h3 class="command__title">Ігор Дем'яненко</h3>
                             <p lang="en" class="command-profession">Product Designer</p>
@@ -215,7 +243,23 @@
 
                     </li>
                     <li class="command-item">
-                        <img src="./images/photo2.jpg" alt="Ольга Рєпіна" width="270" height="260">
+                        <picture class="command__picture">
+                            <source srcset="./images/photo2.webp 1x, ./images/photo2@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/photo2.jpg 1x, ./images/photo2@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+
+                            <source srcset="./images/photo2-t.webp 1x, ./images/photo2-t@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp" />
+                            <source srcset="./images/photo2-t.jpg 1x, ./images/photo2-t@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+
+                            <source srcset="./images/photo2-m.webp 1x, ./images/photo2-m@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp" />
+                            <source srcset="./images/photo2-m.jpg 1x, ./images/photo2-m@2x.jpg 2x"
+                                media="(max-width: 767px)" />
+                            <img src="./images/photo2.jpg" alt="Ольга Рєпіна">
+                        </picture>
                         <div class="command-card">
                             <h3 class="command__title">Ольга Рєпіна</h3>
                             <p lang="en" class="command-profession">Frontend Developer</p>
@@ -256,7 +300,23 @@
                         </div>
                     </li>
                     <li class="command-item">
-                        <img src="./images/photo3.jpg" alt="Микола Тарасов" width="270" height="260">
+                        <picture class="command__picture">
+                            <source srcset="./images/photo3.webp 1x, ./images/photo3@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/photo3.jpg 1x, ./images/photo3@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+
+                            <source srcset="./images/photo3-t.webp 1x, ./images/photo3-t@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp" />
+                            <source srcset="./images/photo3-t.jpg 1x, ./images/photo3-t@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+
+                            <source srcset="./images/photo3-m.webp 1x, ./images/photo3-m@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp" />
+                            <source srcset="./images/photo3-m.jpg 1x, ./images/photo3-m@2x.jpg 2x"
+                                media="(max-width: 767px)" />
+                            <img src="./images/photo3.jpg" alt="Микола Тарасов">
+                        </picture>
                         <div class="command-card">
                             <h3 class="command__title">Микола Тарасов</h3>
                             <p lang="en" class="command-profession">Marketing</p>
@@ -297,7 +357,23 @@
                         </div>
                     </li>
                     <li class="command-item">
-                        <img src="./images/photo4.jpg" alt="Михайло Єрмаков" width="270" height="260">
+                        <picture class="command__picture">
+                            <source srcset="./images/photo4.webp 1x, ./images/photo4@2x.webp 2x"
+                                media="(min-width: 1200px)" type="image/webp" />
+                            <source srcset="./images/photo4.jpg 1x, ./images/photo4@2x.jpg 2x"
+                                media="(min-width: 1200px)" />
+
+                            <source srcset="./images/photo4-t.webp 1x, ./images/photo4-t@2x.webp 2x"
+                                media="(min-width: 768px)" type="image/webp" />
+                            <source srcset="./images/photo4-t.jpg 1x, ./images/photo4-t@2x.jpg 2x"
+                                media="(min-width: 768px)" />
+
+                            <source srcset="./images/photo4-m.webp 1x, ./images/photo4-m@2x.webp 2x"
+                                media="(max-width: 767px)" type="image/webp" />
+                            <source srcset="./images/photo4-m.jpg 1x, ./images/photo4-m@2x.jpg 2x"
+                                media="(max-width: 767px)" />
+                            <img src="./images/photo4.jpg" alt="Михайло Єрмаков">
+                        </picture>
                         <div class="command-card">
                             <h3 class="command__title">Михайло Єрмаков</h3>
                             <p lang="en" class="command-profession">UI Designer</p>
@@ -340,7 +416,7 @@
                 </ul>
             </div>
         </section>
-        <section class="section clients">
+        <!-- <section class="section clients">
             <div class="container">
                 <h2 class="section__title">Постійні клієнти</h2>
                 <ul class="list clients-list">
@@ -517,7 +593,7 @@
     </div>
 
     <script src="./js/modal.js"></script> -->
-    <script src="./js/menu.js"></script>
+        <script src="./js/menu.js"></script>
 </body>
 
 </html>
