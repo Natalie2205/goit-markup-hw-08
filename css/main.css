@@ -169,12 +169,19 @@ img {
 }
 
 .section__title {
-  margin-bottom: 50px;
-  font-size: 36px;
-  line-height: 1.17;
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: 1.18;
   text-align: center;
 }
 
+@media screen and (min-width: 1200px) {
+  .section__title {
+    margin-bottom: 50px;
+    font-size: 36px;
+    line-height: 1.17;
+  }
+}
 .singup-title {
   font-weight: 700;
   line-height: 1.14;
@@ -801,6 +808,11 @@ img {
   padding-top: 0;
 }
 
+@media screen and (max-width: 1199px) {
+  .our-work {
+    display: none;
+  }
+}
 .our-work-list {
   display: flex;
   flex-wrap: wrap;
