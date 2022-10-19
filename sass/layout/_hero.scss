@@ -68,6 +68,12 @@
   text-transform: uppercase;
 }
 
+@media screen and (max-width: 359px) {
+  .hero__title {
+    width: 100%;
+  }
+}
+
 @media screen and (min-width: 1200px) {
   .hero__title {
     width: 696px;
